@@ -1,25 +1,21 @@
-// import { HashRouter, Route, Routes } from "react-router-dom";
-// import ShoppingCartProvider from "./Pages/HomePage/Componant/ShoppingContext/ShoppingContext";
-// import Home from "./Pages/HomePage/Home";
-// import ShoppingPage from "./Pages/ShoppingPage/ShoppingPage";
-//  import './Design-System/main.css';
-
-import Home from "./HomePage/Home";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Home1 from "./HomePage/Componant/Home1/Home1";
+import PageHome from "./HomePage/Home";
 
 function App() {
   return (
     <>
 
-        <Home />
+       
 
-      {/* <ShoppingCartProvider>
+     
         <HashRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/ShoppingPage" element={<ShoppingPage />} />
+            <Route path="/" element={<PageHome />} />
+            <Route path="/Home1" element={<Home1 />} />
           </Routes>
         </HashRouter>
-      </ShoppingCartProvider> */}
+      
 
     
     </>

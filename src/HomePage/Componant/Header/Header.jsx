@@ -1,5 +1,5 @@
 import SlideImage from "./SlideImage";
-import { HeaderWrapper, SlideImageWrapper } from "./style";
+import { HeaderWrapper, P, SlideImageWrapper } from "./style";
 
 
 export default function Header() {
@@ -8,6 +8,7 @@ export default function Header() {
     <HeaderWrapper>
         <SlideImageWrapper>
             <SlideImage />
+            <P>Shop online and don't hesitate, we have special offers and great discounts</P>
         </SlideImageWrapper>
         
     </HeaderWrapper>
